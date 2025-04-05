@@ -1,0 +1,171 @@
+body {
+    font-family: "Raleway", sans-serif;
+}
+.nav-list {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+.nav-item {
+    margin: 0 20px; 
+}
+.burger {
+    height: 43px;
+}
+.btn-user {
+    width: 150px;
+    font-size: 20px;
+    font-weight:700;
+}
+.navbar-nav {
+    gap: 5px; 
+}
+.modal-title {
+    font-weight: 600; 
+}
+
+.main{
+    background-image: url(../image/main-pic.png);
+    background-position: center center;  
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}  
+.btn-read-more{
+    width: 200px;
+    font-size: 20px;
+    font-weight:700;
+    
+}
+.display-5 {
+    padding-top: 100px;
+}
+
+
+
+.items {
+    padding-top: 90px;
+    padding-bottom: 110px;
+}
+
+.item-title {
+    font-size: 20px;
+    color: #3b404f;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.item-text {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card::before {
+    content: "";
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin: 20px auto 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.card-1::before {
+    background-image: url(../image/ic-business.png);
+    
+
+}
+
+.card-2::before {
+    background-image: url(../image/ic-economy.png);
+ 
+
+}
+
+.card-3::before {
+    background-image: url(../image/ic-startup.png);
+    
+
+}
+.card-4::before {
+    background-image: url(../image/ic-technology.png);
+    
+
+}
+
+     
+
+.author-card {  
+
+ background-color: antiquewhite; 
+ border-radius: 10px;  
+ padding: 20px;  
+ text-align: center;  
+ height: 350px;
+
+        }  
+.author-img {  
+ width: 100px;  
+ height: 100px;  
+ border-radius: 50%;  
+        }  
+.author-title {  
+ font-size: 24px;  
+ font-weight: 700;
+              
+        }  
+.author-text {  
+ font-size: 14px;  
+ font-weight: 400;  
+}  
+         
+.header {  
+ font-size: 40px;  
+ font-weight: 600;  
+ text-align: center;  
+ margin-bottom: 30px;  
+        }  
+footer {  
+    font-size: 16px;  
+    font-weight: 400;  
+    color: rgba(255, 255, 255, 0.7);  
+}  
+
+.icon-link {  
+    display: inline-block;  
+    width: 45px; 
+    height: 45px;  
+    background-color: transparent;  
+    border-radius: 50%;  
+    text-align: center;  
+    line-height: 40px;   
+}  
+
+.icon-link i {  
+    color: rgba(255, 255, 255, 0.7);
+}
+.bg-custom{
+
+background-color: rgba(255, 208, 80, 0.50);
+
+}
+
+.pt-1{
+font-size: 44px;
+font-weight: 700;
+
+}
+.der{
+font-size: 16px;
+font-weight: 400;
+
+
+}
+.btn-warning{
+   font-size: 20px;
+   font-weight: 700;
+   background-color: #FFD050;
+
+
+}
